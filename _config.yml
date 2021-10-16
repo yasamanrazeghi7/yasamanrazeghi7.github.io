@@ -1,1 +1,183 @@
-theme: jekyll-theme-cayman
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+bio: "Besides that, I enjoy reading comics, solving puzzles, automating things, and I love playing music (currently I'm learning <a href='https://en.wikipedia.org/wiki/Setar'>Setar</a>).
+"
+
+about: "I'm Navid, a Ph.D. candidate at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://www.ics.uci.edu/~malek/\">Prof. Sam Malek</a>.
+My research interests lie primarily in <a href=\"https://www.sigsoft.org/index.html\">Software Engineering</a> and <a href=\"http://www.sigaccess.org/\">Accessible Computing</a>.
+I design and develop automated tools by leveraging program analysis and machine learning techniques to detect and fix accessibility issues in mobile apps.
+<br>
+For summer 2021, I was an intern at Microsoft Research, working with <a href=\"https://www.microsoft.com/en-us/research/people/suthumma/\">Suresh Thummalapenta</a>.
+"
+
+email: nsalehna@uci.edu
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: navid-salehnamadi
+  github: noidsirius
+  scholar: 2WTPqM8AAAAJ
+  # mastodon: your_username
+  medium: noidsirius
+  stackoverflow: 2681272/noidsirius
+  # telegram: your_username
+  twitter: nsalehna
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+work:
+  - company: "University of California, Irvine"
+    company_url: "http://seal.ics.uci.edu/"
+    role: "Graduate Research Assistant"
+    start: "October 2017"
+    end: "Present"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed and created novel testing techniques to detect accessibility and delivery issues in android apps </li>
+      <li> Devised a scalable and accurate static analysis technique to detect event races </li>
+      <li> Investigated light-weight model checkers to formally analyze uncertainty in models </li>
+    </ul>"
+  - company: "Microsoft Research"
+    company_url: ""
+    role: "Research Intern"
+    start: "June 2021"
+    end: "September 2021"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed a multi-level job caching mechanism, improved the response time +30 times faster than the baseline model</li>
+      <li> Implemented a scalable caching service using ASP.NET, CosmosDB, and Azure Storage </li>
+    </ul>"
+  - company: "Avaye Hamrah Hooshmand Hezardastan"
+    company_url: "https://cafebazaar.ir/about?l=en"
+    role: "Software Engineer"
+    start: "October 2015"
+    end: "August 2017"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Coordinated a number of teams (with 6 to 11 members) in CafeBazaar, a local Android app market, to create tools for developers </li>
+      <li> Established a developers panel based on microservice architecture (using Django, Docker, and Kubernetes) </li>
+      <li> Redesigned and developed a system to automate the process of filtering out malwares and low-quality apps </li>
+      <li> Inspected technical teams' performance issues at a company-wide level </li>
+    </ul>"
+
+
+publication:
+  - name: "Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps"
+    authors: "Forough Mehralian, <u>Navid Salehnamadi</u>, and Sam Malek"
+    conference: "<strong>ESEC/FSE 2021</strong>, he ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, August 2021"
+    repo: "https://github.com/fmehralian/COALA"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3468264.3468604"
+  - name: "Latte: Use-Case and Assistive-Service Driven Automated Accessibility Testing Framework for Android"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Jun-Wei Lin, Iftekhar Ahmed, Stacy Branham, and Sam Malek"
+    conference: "<strong>CHI 2021</strong>, Virtual Conference on Human Factors in Computing Systems, May 2021, 26% acceptance rate"
+    video: "https://www.youtube.com/watch?v=Z84jeO0UZFE"
+    repo: "https://github.com/seal-hub/latte"
+    pdf: "http://seal.ics.uci.edu/publications/2021_CHI_Latte.pdf"
+    html_url: "http://seal.ics.uci.edu/projects/latte/index.html"
+  - name: "ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
+    conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
+    video: "https://youtu.be/apEntYA3uIo"
+    repo: "https://github.com/seal-hub/ercatcher"
+    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_ERCatcher.pdf"
+    html_url: "http://seal.ics.uci.edu/projects/ercatcher/index.html"
+  - name: "Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study"
+    authors: "Jun-Wei Lin, <u>Navid Salehnamadi</u>, and Sam Malek"
+    conference: "<strong>ASE 2020</strong>, 35th International Conference on Automated Software Engineering, September 2020, 23% acceptance rate"
+    repo: "https://github.com/seal-hub/ASE20Empirical"
+    pdf: "http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf"
+    html_url: "http://seal.ics.uci.edu/projects/ase20empirical/index.html"
+  - name: "A Benchmark for Event-Race Analysis in Android Apps (Poster)"
+    authors: "<u>Navid Salehnamadi</u>, Abdulaziz Alshayban, Iftekhar Ahmed, and Sam Malek"
+    conference: "<strong>MobiSys 2020</strong>, 18th International Conference on Mobile Systems, Aplications, and Services, June 2020"
+    video: "https://youtu.be/eSkozhtT-9o"
+    repo: "https://github.com/seal-hub/bencheroid"
+    pdf: "http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3386901.3396602"
+
+
+
+  # - name: Ben ;
+  #  video: https://youtu.be/eSkozhtT-9o
+    # pdf: http://seal.ics.uci.edu/publications/2020_MobiSys_BenchERoid.pdf
+
+    # pdf: http://seal.ics.uci.edu/publications/2020_ASE_Empirical.pdf
+
+  # - name: B
+  #   description: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android
+  #   html_url: https://github.com/seal-hub/ERCatcher
+  #
+  # - name: C
+  #   description: A Micro-Benchmark for Event Races in Android
+  #   html_url: https://github.com/seal-hub/bencheroid
+
+
+projects:
+  - name: SootTutorial
+    description: A step-by-step tutorial for Soot, a Java and Android static analysis framework
+    html_url: https://github.com/noidsirius/SootTutorial
+    source: github
+
+  - name: Translation
+    description: A web app designed to translate contest questions of the International Olympiad in Informatics (IOI 2017)
+    html_url: https://github.com/ioi-2017/translation
+    source: github
+
+  - name: BlackBox Testing Sandbox
+    description: A simple tool emulating the black-box testing, used in the Introduction to Software Engineering course in UCI
+    html_url: https://github.com/noidsirius/BlackBoxTestingDemo
+    source: github
+
+  - name: Descrete Mathematic Contest
+    description:  An online contest platform applying active learning techniques for mathematic courses
+    html_url: https://web.archive.org/web/20170505122033/http://acm.ut.ac.ir/acm/posts/190
+    source: other
+
+  - name: Vahed
+    description: A Ruby on Rails web app for students in University of Tehran to schedule their courses in the following semester
+    html_url: https://web.archive.org/web/20170505130936/http://acm.ut.ac.ir/acm/posts/158
+    source: other
+
+
+
+
+
+topics:
+  - name: Python
+
+  - name: Program Analysis
+
+  - name: Machine Learning
+
+  - name: Agile (Scrum)
+
+  - name: CSS
+    web_url: https://github.com/topics/css
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+    description: I learned something I learned something I learned something I learned something
+
+  - name: Web design
+
+  - name: Sass
+    web_url: https://github.com/topics/sass
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
