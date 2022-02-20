@@ -80,6 +80,10 @@ work:
 
 
 publication:
+  - name: "Impact of Pretraining Term Frequencies on Few-Shot Reasoning"
+    authors: "<u>Yasaman Razeghi</u>, Robert L. Logan IV, Matt Gardner, Sameer Singh"
+    conference: "arXiv"
+    pdf: "https://arxiv.org/abs/2202.07206"
   - name: "Deep Bucket Elimination"
     authors: "<u>Yasaman Razeghi</u>, Kalev Kask, Yadong Lu, P. Baldi, Sakshi Agarwal, and R. Dechter"
     conference: "<strong>IJCAI 2021</strong>, Proceedings of the International Joint Conferences on Artificial Intelligence, August 2021"
