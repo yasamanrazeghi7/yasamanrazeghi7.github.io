@@ -22,7 +22,7 @@ bio: "Besides that, I enjoy gardening, reading, and writing short stories.
 about: "I'm Yasaman, a Ph.D. student at <a href=\"https://uci.edu/\">the University of Calirofnia, Irvine</a> working with <a href=\"https://sameersingh.org/\">Prof. Sameer Singh</a>.
 My research interests lie primarily in Natural Language Processing.
 I'm interested in using language models under few-shots settings to solve common-sense reasoning problems.
-I am excited to be doing an internship with the <a href=\"https://research.google/teams/blueshift/\">Blueshift</a>  team in the summer of 2022 at Google Research.
+I am currently a student researcher at DeepMind.
 "
 
 email: yrazeghi@uci.edu
@@ -81,6 +81,14 @@ work:
 
 
 publication:
+  - name: "Snoopy: An Online Interface for Exploring the Effect of Pretraining Term Frequencies on Few-Shot LM Performance"
+    authors: "<u>Yasaman Razeghi</u>, Raja Sekhar Reddy Mekala, Robert L Logan Iv, Matt Gardner, Sameer Singh"
+    conference: "Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+    pdf: "https://aclanthology.org/2022.emnlp-demos.39.pdf"
+  - name: "A theoretically grounded benchmark for evaluating machine commonsense"
+    authors: "Henrique Santos, Ke Shen, Alice M Mulvehill, <u>Yasaman Razeghi</u>, Deborah L McGuinness, Mayank Kejriwal"
+    conference: "arXiv"
+    pdf: "https://arxiv.org/abs/2202.07206"
   - name: "Impact of Pretraining Term Frequencies on Few-Shot Reasoning"
     authors: "<u>Yasaman Razeghi</u>, Robert L. Logan IV, Matt Gardner, Sameer Singh"
     conference: "arXiv"
